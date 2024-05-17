@@ -49,7 +49,7 @@
     
     <section id="dashboard">
         <h1>Grafana Dashboard</h1>
-        <iframe src="https://botltd.grafana.net/d/c1385932-e8b5-481e-a999-f716359f8cf2/overview-celsius?orgId=1" width="100%" height="600" frameborder="0"></iframe>
+        <iframe src="https://botltd.grafana.net/dashboard/snapshot/8FFAZAWQifOjxcACmwdYLragHi0K7TzZ" width="100%" height="600" frameborder="0"></iframe>
     </section>
     
     <section id="partner-signup">
