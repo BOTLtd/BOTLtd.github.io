@@ -49,7 +49,7 @@
     
     <section id="dashboard">
         <h1>Grafana Dashboard</h1>
-        <iframe src="[https://botltd.grafana.net/dashboard/snapshot/8FFAZAWQifOjxcACmwdYLragHi0K7TzZ](https://botltd.grafana.net/public-dashboards/a749f2c5093d4ae78d8e7e1832f26f4f)" width="100%" height="600" frameborder="0"></iframe>
+        <iframe src="https://botltd.grafana.net/public-dashboards/a749f2c5093d4ae78d8e7e1832f26f4f" width="100%" height="600" frameborder="0"></iframe>
     </section>
     
     <section id="partner-signup">
