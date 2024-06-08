@@ -1,89 +1,109 @@
-<!-- <!-- frontend/public/index.html -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bot Repair Tool</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Welcome to Bot Repair Tool</h1>
-  <p>This is the frontend of the Bot Repair Tool.</p>
-  <script src="script.js"></script>
-</body>
-</html>
- -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOT Repair Tool</title>
+    <title>Electronic Repair Tool</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <!-- Home Page Section -->
+    <section id="home">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#mobile-app">Mobile App</a></li>
+                    <li><a href="#customer-login">Log in</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <h1>Your perfect repair solution in seconds.</h1>
+            <p>The best AI repair tool. Enter symptoms and get solutions with our repair AI.</p>
+            <form action="#" method="POST">
+                <input type="text" name="symptoms" placeholder="Enter symptoms...">
+                <button type="submit">Generate</button>
+            </form>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h2>Get Started for Free</h2>
+                <p>Repair your devices with ease using our AI-powered tool. Fix issues quickly and efficiently.</p>
+                <a href="#customer-signup" class="cta">TRY FOR FREE!</a>
+            </div>
+            <div class="feature">
+                <h2>Available on App Stores</h2>
+                <p>An amazing app with usage of AI for anyone to repair devices at home.</p>
+                <a href="#" class="cta">Get it on Google Play</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Login and Signup Section -->
+    <section id="customer-login">
+        <div class="login">
+            <h2>Customer Login</h2>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        
+        <div class="signup">
+            <h2>Sign up for New</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Name">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Ticket Handling Section -->
+    <section id="tickets">
+        <div class="ticket-form">
+            <h2>Create a New Ticket</h2>
+            <form action="#" method="POST">
+                <input type="text" name="issue" placeholder="Issue">
+                <textarea name="description" placeholder="Description"></textarea>
+                <button type="submit">Submit Ticket</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out to us!</p>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Mobile App</a></li>
-                <li><a href="#">Log in</a></li>
+                <li>Email: info@electronicrepairtool.com</li>
+                <li>Phone: +1-123-456-7890</li>
+                <li>Address: 123 Main Street, City, Country</li>
             </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h1>Your perfect repair solution in seconds.</h1>
-        <p>The best AI repair tool. Enter symptoms and get solutions with our repair AI.</p>
-        <form action="#" method="POST">
-            <input type="text" name="symptoms" placeholder="Enter symptoms...">
-            <button type="submit">Generate</button>
-        </form>
-    </section>
-
-    <section class="features">
-        <div class="feature">
-            <h2>Get Started for Free</h2>
-            <p>Repair your devices with ease using our AI-powered tool. Fix issues quickly and efficiently.</p>
-            <a href="#" class="cta">TRY FOR FREE!</a>
         </div>
-        <div class="feature">
-            <h2>Available on App Stores</h2>
-            <p>An amazing app with usage of AI for anyone to repair devices at home.</p>
-            <a href="#" class="cta">Get it on Google Play</a>
-        </div>
-    </section>
-
-    <section class="featured-recipes">
-        <h2>Featured Repair Solutions</h2>
-        <div class="recipes">
-            <div class="recipe">
-                <h3>Fix Screen Flickering</h3>
-                <p>Follow our step-by-step guide to fix screen flickering issue on your device.</p>
-            </div>
-            <div class="recipe">
-                <h3>Resolve Bluetooth Connectivity</h3>
-                <p>Troubleshoot Bluetooth connectivity problems on your device with our AI-generated solutions.</p>
-            </div>
-            <div class="recipe">
-                <h3>Fix Battery Drain</h3>
-                <p>Learn how to resolve battery draining issues on your device with our expert tips.</p>
-            </div>
-            <div class="recipe">
-                <h3>Repair Overheating</h3>
-                <p>Discover effective ways to fix overheating problems on your device using our repair tool.</p>
-            </div>
+        <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 
     <footer>
-        <p>BOT Repair Tool - Your go-to solution for device repair. © 2024 Mr. Cook. All rights reserved.</p>
+        <p>Electronic Repair Tool - Your go-to solution for device repair. © 2024 Mr. Cook. All rights reserved.</p>
     </footer>
 </body>
 
